@@ -187,20 +187,36 @@ form textarea {
 }
 
 .social-links {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.social-links a {
-    margin: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .social-links a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #1f1f1f;
+    padding: 12px 18px;
+    border-radius: 6px;
     color: #f6a623;
-    display: inline-block;
-    transition: 0.3s;
-}
-
-.social-links a:hover {
-    color: #fff;
-}
+    font-weight: 500;
+    transition: background 0.3s ease, transform 0.2s ease;
+    text-decoration: none;
+  }
+  
+  .social-links a i {
+    font-size: 1.1rem;
+  }
+  
+  .social-links a:hover {
+    background: #f6a623;
+    color: #121212;
+    transform: translateY(-2px);
+  }
+  
 
 footer {
     text-align: center;
@@ -400,3 +416,6 @@ footer {
       } */
 }
 
+head link{
+    box-sizing: 50%;
+}
