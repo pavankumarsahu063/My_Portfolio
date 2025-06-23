@@ -10,15 +10,27 @@
   <header>
     <div class="container header-inner">
       <div class="logo">Pavan Kumar Sahu</div>
-      <nav>
+  
+      <!-- Hamburger Button -->
+      <div class="hamburger" id="hamburger">
+        &#9776;
+      </div>
+
+      
+      <!-- Navigation -->
+      <nav class="nav-links" id="nav-links">
+        <div class="close-btn" id="close-btn">&times;</div>
         <a href="#about">Experience</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
+        <a href="./pavankumarsahu.pdf" download class="btn mobile-resume">Download Resume</a>
       </nav>
-      <a class="btn" href="./pavankumarsahu.pdf" download>Download Resume</a>
+  
+      <a class="btn desktop-resume" href="./pavankumarsahu.pdf" download>Download Resume</a>
     </div>
   </header>
+  
 
   <section class="hero container" id="home">
     <div class="hero-text">
@@ -136,7 +148,7 @@
       <a href="https://www.linkedin.com/in/pavan-kumar-sahu-39730a256/" target="_blank">LinkedIn</a>
       <a href="https://leetcode.com/u/pavankumarsahu/" target="_blank">LeetCode</a>
     </div>
-    <form action="https://formsubmit.co/youremail@example.com" method="POST">
+    <form action="https://formsubmit.co/pavankumar987321@gmail.com" method="POST">
       <input type="text" name="name" placeholder="Your Name" required>
       <input type="email" name="email" placeholder="Your Email" required>
       <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
@@ -147,5 +159,7 @@
   <footer>
     <p>© 2025 Pavan Kumar Sahu. All Rights Reserved.</p>
   </footer>
+
+  <script src="./script.js"></script>
 </body>
 </html>
