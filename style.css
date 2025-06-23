@@ -2,7 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
+:root {
+    scroll-padding-top: 80px;
+  }
+  
 
 body {
     padding-top: 70px;
@@ -23,6 +28,7 @@ a {
     max-width: 1100px;
     margin: auto;
     padding: 0 20px;
+    
 }
 
 header {
@@ -81,6 +87,7 @@ section {
 }
 
 .hero {
+   
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -128,6 +135,8 @@ section {
     margin-bottom: 10px;
     color: #f6a623;
 }
+
+
 
 .skill-card,
 .project-card {
@@ -198,6 +207,8 @@ footer {
     padding: 20px;
     background: #111;
 }
+
+
 
 @keyframes fadeInUp {
     from {
